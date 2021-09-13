@@ -13,7 +13,7 @@ export default createRouter ({
       component: Home
     },
     { 
-      path: '/movie',
+      path: '/movie/:id',
       component: Movie
     },
     { // 페이지경로와 해당 페이지에 연결할 컴포넌트 작성
